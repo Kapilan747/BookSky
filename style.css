@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.hea{
+    font-size: 35px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 4px;
+
+    background-color: blue;
+    
+}
+
+h1{
+    color: blue;
+}
+
+.notes{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.notes button{
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 6px;
+    border: none;
+    padding: 7px;
+}
+
+.add{
+    background-color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100%;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.popupdiv{
+    margin-left: 30%;
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding:20px;
+    left: 20%;
+    border-radius: 10px;
+    
+
+}
+
+
+.overlaydiv{
+    display: block;
+    opacity: 0.8;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+
+
+.popup-box{
+    background-color: blue;
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top:30%;
+    left:30%;
+    z-index: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+    display: none;
+}
+
+.popup-box input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin:5px;
+    padding:5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+
+.popup-box textarea{
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        margin:5px;
+        padding:5px;
+        font-size: 20px;
+        border: solid black 2px;
+}
+
+.popup-box input::placeholder{
+    color: black;
+}
+
+.popup-box input:focus{
+    outline:none;
+}
+
+.popup-box textarea:focus{
+    outline:none;
+}
+
+.popup-box textarea::placeholder{
+    color: black;
+}
+
+
+#book-add{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+#cancel-book{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+
+
+.popup-box button{
+    justify-content: space-around;
+}
